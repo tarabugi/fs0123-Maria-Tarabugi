@@ -1,0 +1,63 @@
+body{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1rem;
+}
+header{
+    text-align: center;
+}
+header img{
+    height: 55px;
+}
+main{
+    margin:0 auto;
+    width: 700px;
+}
+#imgauthor{
+    text-align: center;
+    color: gray;
+}
+#intestazione{
+    background-color: lightyellow;
+    color: rgb(21, 87, 70);
+   padding: 7px;
+    border-top: orange solid 1px ;
+    font-size: 0.8rem;
+}
+#intestazione span {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#focaccia{
+    font-size: 2rem;
+    text-align: center;
+}
+#featured{
+      border-left: 2px solid yellow;
+      padding-left: 15px;
+}
+a{
+    color: rgb(0, 114, 104);
+}
+.sezione{
+    border-bottom: 1px solid rgb(163, 247, 215);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer{
+    margin:0 auto;
+    width: 700px;
+    padding-left: 0px;
+}
+li{
+margin: 15px;
+}
+#text{
+    margin-left: 10px;
+}
+#featured p{
+    color: orangered;
+    
+}
+#metodo{
+   margin-left: 20px;
+}
