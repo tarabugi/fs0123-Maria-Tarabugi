@@ -1,0 +1,30 @@
+div {
+    background-color: red;
+}
+
+#rosso{
+    background-color: yellow;
+}
+
+.class{
+    background-color:green;
+}
+
+/*conflitti scrivere inline vince su tutto ma (*/
+
+#conflitti div{
+    background-color: blue;
+}
+#conflitti div{
+    background-color: yellow;
+}
+#conflitti .verde{
+    background-color:green;
+}
+#conflitti #rosa.verde{
+    background-color:purple /*!important;vince questo ma non si usa e`brutto brutto*/
+}
+#conflitti #rosa{
+    background-color:pink;
+}
+

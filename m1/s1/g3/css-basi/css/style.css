@@ -1,0 +1,15 @@
+div{
+    color:red;
+    background-color: blue;
+}
+/*selettore{
+    proprieta`/regola: valore;
+} */
+
+div span {
+    color: white;
+}
+
+div, span {
+    border: 1px solid black;
+}

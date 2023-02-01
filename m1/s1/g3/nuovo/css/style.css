@@ -1,0 +1,24 @@
+/*dimensionamento assoluto
+body{
+    font-size: 20px;
+}
+*/
+@font-face {
+    font-family: ;
+    src: url();
+}
+:root{
+    font-size: 20px;
+}
+#t1{
+    font-size: 2rem;
+}
+#t2{
+    font-size: 16px;/* la font-size: in root e`sempre 16px*/ ;
+}
+#t1{
+    font-size: 1rem;
+}
+#t3{
+    font-size: 1em;
+}
