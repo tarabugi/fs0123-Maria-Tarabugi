@@ -1,0 +1,31 @@
+img{
+    max-width: 100%;
+}
+
+.quadrato{ 
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+#q1{
+    background-image: url(../img/download.png);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+#q2{
+    background-image: url(../img/download.png) url(../img/download.png);
+    background-size: 30px, 30px;
+    background-repeat: no-repeat;
+    background-position: right, left;
+}
+#q3{
+    background-image: url(../img/download.png);
+    background-size: cover;
+}
+#q4{
+    background-image: url(../img/download.png);
+    background-size: contain;
+}

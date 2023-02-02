@@ -1,0 +1,13 @@
+
+section span{
+    text-decoration: line-through;/*tutti gli span figli di section*/
+}
+section > span{
+    text-decoration: line-through;/*solo i figli diretti di section*/
+}
+section	+ small{
+    font-weight: bold;
+}
+section	~ small{
+    color: red;
+}
