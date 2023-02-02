@@ -2,16 +2,19 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-image: url(../img/sfondo.png);
+    font-size: 1.2rem;
 }
 
-ul li {
+.menù-1 li{
     list-style-type: none;
+
 }
 
 .menù-1 a {
     text-decoration: none;
     color: white;
     line-height: 25px;
+  
 }
 
 .menù-1 a::before  {
@@ -25,14 +28,17 @@ ul li {
 
 /* HEADER */
 #header-1 {
-    margin: 0 auto;
+   
     margin: 20px;
-    padding: 30px;
+    padding: 60px 30px;
+
     text-align: center;
-    background-color: rgb(19, 68, 85);
+    background: -webkit-linear-gradient(bottom, #075d63 0%, #1bb9d4 100%);
     color: white;
     font-size: 1.2rem;
     text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px #888888
 }
 
 .img {
@@ -44,11 +50,16 @@ ul li {
     margin: 20px 0;
 }
 /* MAIN */
+.sezioni{
+    margin: 30px auto;
+}
 main {
     margin: 0 auto;
     margin: 20px;
     padding: 20px;
     background-color: white;
+    line-height: 30px;
+    box-shadow: 2px 2px 2px #888888
 }
 
 /* ELEMENTI NEL MAIN - ARTICLE */
@@ -58,10 +69,131 @@ h1 {
     line-height: 50px;
     margin: 25px auto;
 }
-/* TABELLE */
+#creator{ 
+    color: gray;
 
+
+}
+.comuni{
+    color: purple;
+    font-weight: bold;
+}
+.lista{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.grigio{
+    background-color: lightgray;
+    border: 1px solid darkgray ;
+    border-radius: 10px;
+   
+}
+#ordinata{
+    margin-top: 20px ;
+    margin-bottom: 20px ;
+}
+
+/* TABELLE */
+table {
+    width: 100%;
+    text-align: center;
+    border-bottom: 3px solid rgb(44, 112, 238); 
+   
+
+}
+caption{
+    font-style: italic;
+    font-weight: bold;
+}
+
+table thead th {
+    border: 0.2px solid rgb(210, 228, 255);
+    background-color: rgb(72 123 218);
+    color: white;
+    vertical-align:bottom
+
+}
+table th{
+    padding: 10px;
+}
+tbody td{
+    padding: 10px;
+}
+table tr:nth-of-type(even){
+    background-color: rgb(243, 241, 241);
+    border-top: 1px solid rgb(209, 204, 204) ;
+    border-bottom: 1px solid rgb(209, 204, 204) ;
+}
+main a{
+    color: rgb(0 166 209);
+    font-weight: bold;
+
+}
+#video{
+    height: 180px;
+    width: 350px;
+    border-radius: 20px;
+}
 /* FORM */
+#form {
+    background-color: lightgray;
+    padding: 10px;
+}
+.sottotitoli{
+    text-align: center;
+    font-weight: bold;
+    padding: 30px;
+    font-size: 30px;
+}
+form{
+    margin-top: 20px;
+    
+   
+}
+form input{
+    height: 25px;
+    width: 240px;
+    border: none;
+    font-size: 20px;
+}
+#iscriviti{
+    background-color:rgb(72 123 218) ;
+    border: none;
+    color: white;
+    height: 25px;
+    font-size: 20px;
+}
 
 /* ELEMENTI NELL' ASIDE */
-
+.correlati{
+    background-color: lightgray;
+    padding: 10px;
+    
+}
+.categoria{
+   margin: 0px;
+}
+.data{
+    text-align:end;
+    font-size: 15px;
+    margin: 10px auto;
+}
 /* FOOTER */
+footer{
+    text-align: center;
+    background: -webkit-linear-gradient(bottom, #03292c 0%, #0c7c80 100%);
+    margin: 10px;
+    padding: 20px 30px;
+    color: white;
+    font-size: 15px;
+    line-height: 20px;
+}
+footer a{
+    color: rgb(255, 91, 187);
+    font-weight: bold;
+    
+}
+.footer {
+     margin-bottom: 10px;
+     padding:0px
+}

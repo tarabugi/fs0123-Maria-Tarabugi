@@ -17,10 +17,10 @@ img{
 }
 #q2{
     background-image: url(../img/download.png) url(../img/download.png);
-    background-size: 30px, 30px;
-    background-repeat: no-repeat;
+    background-siz no-repeat;
     background-position: right, left;
-}
+}e: 30px, 30px;
+    background-repeat:
 #q3{
     background-image: url(../img/download.png);
     background-size: cover;
